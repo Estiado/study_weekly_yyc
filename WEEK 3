@@ -1,1 +1,9 @@
 第二周里 我们已经学到：
+    1.lamda函数的用法：lamda 参数：返回表达式
+        divides_n = lamda x: n % x == 0
+        等价于
+        def divides_n(x):
+            return n % x == 0
+    2.巩固了一下return 语句：
+        循环内的return Flase/True会直接终止函数
+
